@@ -1,0 +1,64 @@
+.webcam {
+    background:#ccc;
+}
+
+body{
+    margin:0;
+    padding:0;
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.webcam {
+    opacity:1;
+    z-index: -9;
+    box-shadow: 1px 1px 20px 3px rgba(0,0,0,0.9);
+}
+
+.middle {
+    padding:50px;
+    border:15px;
+    text-align: center;
+    margin:auto;
+    position: absolute;
+    top:30%;
+    left:50%;
+    transform: translate(-50%, -30%);
+    width:80%;
+}
+
+canvas {
+    position: absolute;
+}
+
+.icon{
+    width:60x;
+    height:30px;
+}
+
+.trademarks {
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 9;
+}
+
+.no-bg {
+    background:none;
+}
+
+.bg-video {
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    opacity: 0.2;
+    filter: blur(3px);
+    z-index: -1;
+    opacity: 1;
+    
+}
